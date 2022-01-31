@@ -2,6 +2,12 @@
 <html>
 <head>
 	<style>
+		#myHeader {
+  background-color: darkred;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
 		.art {
   background-color: darkblue;
   color: white;
@@ -72,7 +78,9 @@ p    {color: forestgreen;}
     <td>Photoshop Software</td>
   </tr>
 		</table>
- <h2>List of Artistic Essentials</h2>
+ 
+	<h2 id="myHeader">List of Artistic Essentials</h2>
+
 
 <ul>
   <li>Creativity</li>
@@ -93,5 +101,17 @@ p    {color: forestgreen;}
 <h2>Digital</h2>
 <p>Is the act of creating art through a digital outlet.</p>
 </div>
+	<button type="button" onclick="myFunction()">Click Me</button>
+
+<p id="demo">This is a button.</p>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "JavaScript!";
+}
+	</script>
+	<p><a href="https://alejandrogutierrez1224.github.io/html1/addition.html">Visit The 2nd local page</a></p>
+
+	
 </body>
 </html>

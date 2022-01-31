@@ -1,6 +1,33 @@
 <!doctype html>
 <html>
 <head>
+	<style>
+		.art {
+  background-color: darkblue;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+		table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+body {background-color: powderblue;}
+h1   {color: darkgrey;}
+p    {color: forestgreen;}
+</style>
 <meta charset="UTF-8">
 <title>HTML 1</title>
 </head>
@@ -14,10 +41,57 @@
 	<hr>
 	<p style="color:red;">This a painting of me and my girlfriend</p>
 		<img src="images/painting.jpg" width="200" height="200" alt="Painting of me and my girlfriend">
-	<h3>Digital Art</h3>
+	<h3 style="color:darkorange;">Digital Art</h3>
 	<hr>
 	<p><b>This is a symbol I had created in Photoshop</b></p>
 	<img src="images/logo.jpg" width="200" height="200" alt="Symbol with orange flower">
 	<hr>
+	<h1 title="This is a title">Link to a Cool Photoshop Tutorial </h1>
+	<p><a href="https://youtu.be/F8awkBzpUIw">Low Poly Artwork from Photographs | Photoshop Tutorial</a></p>
+	<h2>Table of Art and Tools That Were Used</h2>
+	<table>
+
+  <tr>
+    <th>Art style</th>
+    <th>Tools Used</th>
+    <th>Created On</th>
+  </tr>
+  <tr>
+    <td>Drawing</td>
+    <td> Pencils and Colored Pencils</td>
+    <td>Paper</td>
+  </tr>
+  <tr>
+    <td>Painting</td>
+    <td>Acrylic Paints</td>
+    <td>White Canvas</td>
+  </tr>
+  <tr>
+    <td>Digital </td>
+    <td>Photoshop tools</td>
+    <td>Photoshop Software</td>
+  </tr>
+		</table>
+ <h2>List of Artistic Essentials</h2>
+
+<ul>
+  <li>Creativity</li>
+  <li>Writing tool</li>
+  <li>Surface to write on</li>
+</ul>  
+	<div class="art">
+<h2>Drawing</h2>
+<p>Is the act of creating art on paper with a writing ustensil.</p>
+</div> 
+
+<div class="art">
+<h2>Painting</h2>
+<p>Is the act of creating art with paint.</p>
+</div>
+
+<div class="art">
+<h2>Digital</h2>
+<p>Is the act of creating art through a digital outlet.</p>
+</div>
 </body>
 </html>
